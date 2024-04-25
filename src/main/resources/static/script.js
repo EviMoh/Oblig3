@@ -8,7 +8,6 @@ $(function () {
         const innTelefonnr = $("#telefonnr").val();
         const innEpost = $("#epost").val();
 
-
         /* Hvis input er korrekt, legg til i array og oppdater tabell */
         if (sjekkInn(innFilm, innAntall, innFornavn, innEtternavn, innTelefonnr, innEpost)) {
             const billett = {

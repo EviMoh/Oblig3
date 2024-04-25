@@ -13,6 +13,7 @@ public class KinoController {
     @Autowired
     KinoRepository rep;
 
+
     @PostMapping("/lagre")
     public void lagreBillett(Billett innBillett){
         rep.lagreBillett(innBillett);

@@ -1,5 +1,4 @@
 package com.example.kinobilletter;
-
 public class Billett {
     private String film;
     private int antall;
