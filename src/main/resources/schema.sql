@@ -1,11 +1,11 @@
 CREATE TABLE Billett
 (
-    enavn           varchar(255) NOT NULL,
-    fnavn           varchar(255) NOT NULL,
-    film           varchar(255) NOT NULL,
-    antallBilletter INT NOT NULL,
-    epost           varchar(255) NOT NULL,
-    telefonNr           INT NOT NULL,
-    id              INT AUTO_INCREMENT NOT NULL,
-    PRIMARY KEY (enavn)
+    id        INTEGER AUTO_INCREMENT NOT NULL,
+    film      VARCHAR(255) NOT NULL,
+    antall    INTEGER      NOT NULL,
+    fornavn   VARCHAR(255) NOT NULL,
+    etternavn VARCHAR(255) NOT NULL,
+    telefonnr VARCHAR(8)   NOT NULL,
+    epost     VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
 );
