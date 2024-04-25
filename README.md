@@ -3,7 +3,7 @@
 Fulltavn: Evi Mohammedzada
 Oslomet brukernavn: evmoh2472
 
-Link til github-repo: https://github.com/EviMoh/Kinobilletter-oblig3.git
+Link til github-repo:
 
 Link til video:  ....
 
